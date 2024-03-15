@@ -1,8 +1,6 @@
 import { createRequestHandler } from "rakkasjs/server";
 import { cookie } from "@hattip/cookie";
 
-
-
 export default createRequestHandler({
   middleware: {
     beforePages: [],
@@ -19,7 +17,6 @@ export default createRequestHandler({
 
       emitToDocumentHead() {
         const cookie_theme = "light";
-
         return `
     <link rel="icon" type="image/svg+xml" href="/site.svg" />
     <script>
@@ -30,7 +27,6 @@ export default createRequestHandler({
    
   `;
       },
-
 
       wrapApp(app) {
         return app;
