@@ -11,6 +11,11 @@ body {
   margin: 0;
 }
 
+html[data-theme="dark"] {
+  background: #332;
+  color: #eee;
+}
+
 a {
   color: #924;
   text-decoration: none;
