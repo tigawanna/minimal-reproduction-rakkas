@@ -17,8 +17,8 @@ dependencies:
 
 devDependencies:
   '@rakkasjs/eslint-config':
-    specifier: 0.7.0-next.44
-    version: 0.7.0-next.44(eslint@8.57.0)(typescript@5.4.2)
+    specifier: 0.7.0-next.45
+    version: 0.7.0-next.45(eslint@8.57.0)(typescript@5.4.2)
   '@types/react':
     specifier: ^18.2.66
     version: 18.2.66
@@ -35,8 +35,8 @@ devDependencies:
     specifier: ^3.2.5
     version: 3.2.5
   rakkasjs:
-    specifier: 0.7.0-next.44
-    version: 0.7.0-next.44(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)(vite@5.1.6)
+    specifier: 0.7.0-next.45
+    version: 0.7.0-next.45(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)(vite@5.1.6)
   typescript:
     specifier: ^5.4.2
     version: 5.4.2
@@ -905,8 +905,8 @@ packages:
     resolution: {integrity: sha512-j7P6Rgr3mmtdkeDGTe0E/aYyWEWVtc5yFXtHCRHs28/jptDEWfaVOc5T7cblqy1XKPPfCxJc/8DwQ5YgLOZOVQ==}
     dev: true
 
-  /@rakkasjs/eslint-config@0.7.0-next.44(eslint@8.57.0)(typescript@5.4.2):
-    resolution: {integrity: sha512-3oubkP97gKWrZaesy8X3KewHj3EhoOqMnNQRXthBdTZB30ytZliFwKHBZhsk5wNFlJkE85LsT1PGbirqJZgddA==}
+  /@rakkasjs/eslint-config@0.7.0-next.45(eslint@8.57.0)(typescript@5.4.2):
+    resolution: {integrity: sha512-dxfHkiZbCdu4bJjp7xM/UZSEHGRswJBLCCZdrz7V42xPmjMAktAoyYh6I5oIhjtmjaKxd6gGQHWj+NLRDZFlOQ==}
     peerDependencies:
       eslint: ^8.7.0
       typescript: 4 || 5
@@ -1087,8 +1087,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.11.27:
-    resolution: {integrity: sha512-qyUZfMnCg1KEz57r7pzFtSGt49f6RPkPBis3Vo4PbS7roQEDn22hiHzl/Lo1q4i4hDEgBJmBF/NTNg2XR0HbFg==}
+  /@types/node@20.11.28:
+    resolution: {integrity: sha512-M/GPWVS2wLkSkNHVeLkrF2fD5Lx5UC4PxA0uZcKc6QqbIQUJyW1jVjueJYi1z8n0I5PxYrtpnPnWglE+y9A0KA==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1260,7 +1260,7 @@ packages:
     peerDependencies:
       vite: ^2.8.1 || 3 || 4 || 5
     dependencies:
-      '@types/node': 20.11.27
+      '@types/node': 20.11.28
       vite: 5.1.6
     dev: true
 
@@ -1277,7 +1277,7 @@ packages:
     peerDependencies:
       vite: ^2.8.1 || 3 || 4 || 5
     dependencies:
-      '@types/node': 20.11.27
+      '@types/node': 20.11.28
       cac: 6.7.14
       picocolors: 1.0.0
       vite: 5.1.6
@@ -3342,8 +3342,8 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: true
 
-  /rakkasjs@0.7.0-next.44(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)(vite@5.1.6):
-    resolution: {integrity: sha512-6LPT2fenrG9yFUGkK+bTU8yW0yAUqwpsKVQMdx4P69pQ03FAQQgQIL3q2S1eb7gsQYLXeT+eix3+jjWXjpDxGw==}
+  /rakkasjs@0.7.0-next.45(react-dom@18.2.0)(react@18.2.0)(typescript@5.4.2)(vite@5.1.6):
+    resolution: {integrity: sha512-VFaqA2gHaxogb0ZMSys8+x5W83tkS/H3u40yiujkuTlL4goGfgBjctu/ArCCKwNkqd9233xfEvn2B+tuFSM+dQ==}
     hasBin: true
     peerDependencies:
       react: '18'
@@ -3365,7 +3365,7 @@ packages:
       '@hattip/core': 0.0.44
       '@hattip/polyfills': 0.0.44
       '@microsoft/fetch-event-source': 2.0.1
-      '@types/node': 20.11.27
+      '@types/node': 20.11.28
       '@types/react': 18.2.66
       '@types/react-dom': 18.2.22
       '@vavite/connect': 4.1.1(vite@5.1.6)
